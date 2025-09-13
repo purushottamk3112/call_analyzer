@@ -1,4 +1,4 @@
-#Call Quality Analyzer
+Call Quality Analyzer
 The Call Quality Analyzer is an end-to-end pipeline that evaluates customer call recordings to extract insights about **communication quality, engagement, and sentiment**. It combines **speech processing, diarization, and NLP** to deliver structured analysis from raw audio.
 
 ---
