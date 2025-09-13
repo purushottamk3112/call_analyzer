@@ -3,24 +3,24 @@ The Call Quality Analyzer is an end-to-end pipeline that evaluates customer call
 
 ---
 
-## 🔑 Features
+## Features
 
-* 🎧 **Audio Preprocessing** → resampling, normalization, noise reduction
-* 🗣️ **Speaker Diarization** → separates customer vs. representative using `pyannote.audio`
-* ✍️ **Automatic Speech Recognition (ASR)** → transcribes speech with Whisper
-* 🧑‍🤝‍🧑 **Conversation Structuring** → maps transcripts to speakers with timestamps
-* 📊 **Metrics Extracted**:
+* **Audio Preprocessing** → resampling, normalization, noise reduction
+* **Speaker Diarization** → separates customer vs. representative using `pyannote.audio`
+*  **Automatic Speech Recognition (ASR)** → transcribes speech with Whisper
+* **Conversation Structuring** → maps transcripts to speakers with timestamps
+* **Metrics Extracted**:
 
   * Talk-time ratio (rep vs. customer)
   * Longest monologue
   * Number of questions asked
   * Sentiment per speaker (positive/neutral/negative)
   * Keyword-based speaker validation
-* 📝 **Insights Report** → interprets communication quality and coaching opportunities
+* **Insights Report** → interprets communication quality and coaching opportunities
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp) (audio download)
@@ -31,7 +31,7 @@ The Call Quality Analyzer is an end-to-end pipeline that evaluates customer call
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Provide a YouTube call recording link or upload audio.
 2. Audio is preprocessed and cleaned.
@@ -41,7 +41,7 @@ The Call Quality Analyzer is an end-to-end pipeline that evaluates customer call
 
 ---
 
-## 📂 Output Example
+## Output Example
 
 * **Talk-Time Ratio**: Rep (65%) vs Customer (35%)
 * **Sentiment**: Rep – Neutral, Customer – Negative
@@ -54,19 +54,3 @@ The Call Quality Analyzer is an end-to-end pipeline that evaluates customer call
 * Sales call coaching
 * Customer support quality analysis
 * Conversation intelligence
-
----
-
-## 🤝 Contributing
-
-Pull requests and feature suggestions are welcome!
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-👉 Do you want me to also add a **Setup & Installation guide (with pip commands + Colab support)** so that anyone can directly run your notebook?
